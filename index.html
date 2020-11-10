@@ -8,26 +8,17 @@
   <body>
     <h1>
       Enter a number of dice:
-      <input type="text" id="number-rolls" placeholder="Roll dice amount" />
-      <button id="roll-button">Roll!</button>
-      <button id="reset-button">RESET</button><br />
-        NUMBER OF RESETS: <span id="num-resets">0</span>
-      <script src="../js_dice_roller/assets/javascript/diceroller.js"></script>
+      <input id="numOfRolls" type="text" />
+      <button id="rollButton">Roll!</button>
     </h1>
     <h2>
       Total:
-      <input type="text" id="total-number" placeholder="___" />
+      <span id="total">0</span>
     </h2>
     <h3>
-      <button id="show-button">Show All Rolls</button>
+      <button id="showAllRolls">Show All Rolls</button>
+      <ol id="allRollsDisplay"></ol>
     </h3>
-    <h4>
-      <ul>
-        <li>Dice 1:</li>
-        <li>Dice 2:</il>
-        <li>Dice 3:</il>
-        <li>Dice 4:</il>
-      </ul>
-    </h4>
+    <script src="../js_dice_roller/assets/javascript/diceroller.js"></script>
   </body>
 </html>
